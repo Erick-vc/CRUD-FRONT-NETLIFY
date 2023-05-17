@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getTasksRequest = async () => 
-  await axios.get('https://crud-back-railway-production.up.railway.app/');
+  await axios.get('https://crud-back-railway-production.up.railway.app/customers/');
 
 export const createTaskRequest = async (task) => 
   await axios.post('https://crud-back-railway-production.up.railway.app/customers', task);
